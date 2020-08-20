@@ -1,19 +1,15 @@
-body {
-  margin: 0;
-}
-
 h1 {
-  margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
+  margin: 0 auto 0 auto;
+  font-family: 'Do Hyeon',sans-serif;
   font-size: 5.625rem;
-  color: #66BFBF;
+  color: #2d4059;
   line-height: 2;
 }
 
 h2 {
   margin-top: 0;
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #66BFBF;
 }
 
@@ -30,45 +26,49 @@ p {
 }
 
 body {
-  background-color: #f6f4e6;
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
 }
 
-hr{
+hr {
   border-style: none;
   border-top-style: dotted;
   border-color: grey;
   width: 10%;
   border-width: 5px;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 .imgProfile {
   width: 250px;
   height: 250px;
-  margin-top: 30px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border-radius: 50%;
 }
 
-.img-ios {
+.img-left {
   width: 25%;
   float: left;
   margin-right: 30px;
 }
 
-.img-sql{
+.img-right {
   width: 25%;
   float: right;
   margin-left: 30px;
 }
 
 .top-Container {
-  background-color: #EAF6F6;
+  background-color: #5eaaa8;
   position: relative;
   padding-top: 100px
 }
 
-.bottom-container{
+.bottom-container {
   background-color: #66BFBF;
   position: relative;
   padding-bottom: 100px;
@@ -92,24 +92,24 @@ hr{
   top: 50px;
 }
 
-.skill-row{
+.skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
   line-height: 2;
 }
 
-.presentation{
+.presentation {
   margin-left: 20px;
   margin-right: 20px;
   text-align: center;
 }
 
-.contact-me{
+.contact-me {
   margin-left: auto;
   margin-right: auto;
 }
 
-.btn{
+.btn {
   font-size: 25px;
   color: white;
   background-color: #66BFBF;
@@ -119,9 +119,31 @@ hr{
   margin-bottom: 50px;
 }
 
-.footer-link{
-  color: #11999E;
+.footer-link {
+  color: #EAF6F6;
   margin-left: 20px;
   margin-right: 20px;
   font-size: 20px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 13px;
+  position: absolute;
+  bottom: 0;
+  right: 25%;
+  left: 53%;
+  margin-left: -150px;
+  margin-bottom: 20px;
+}
+
+.top-images{
+  width: 10%;
+  height: 10%;
+  margin: 5% 5% 10% 5%;
+}
+
+.programador{
+  color: #a35d6a;
+  font-weight: bold;
 }
