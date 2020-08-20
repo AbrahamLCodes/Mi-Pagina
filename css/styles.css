@@ -1,6 +1,6 @@
 h1 {
   margin: 0 auto 0 auto;
-  font-family: 'Do Hyeon',sans-serif;
+  font-family: 'Do Hyeon', sans-serif;
   font-size: 5.625rem;
   color: #2d4059;
   line-height: 2;
@@ -137,13 +137,13 @@ hr {
   margin-bottom: 20px;
 }
 
-.top-images{
+.top-images {
   width: 10%;
   height: 10%;
   margin: 5% 5% 10% 5%;
 }
 
-.programador{
+.programador {
   color: #a35d6a;
   font-weight: bold;
 }
